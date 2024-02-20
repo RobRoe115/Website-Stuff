@@ -1,0 +1,104 @@
+header, nav,main,footer,figure,section,aside{ display: block;}
+/********************************************************************************/		
+/*  styles for all pages*/
+/********************************************************************************/
+
+body{ 
+	background-color: #ffffff;
+	color: #777777;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+header{
+	height: 120px;
+}
+header nav {
+	float: right;
+}
+header h1{
+	float: left;
+}
+header h1 span.color{
+	color: #02b8dd;
+}
+header nav ul li{
+	float: left;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+header nav ul li a{
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	
+}
+
+main{ 
+	width: 900px;
+	margin-right: auto;
+    margin-left: auto;
+} 
+section#bottom{ 
+	text-align:center;
+	border-bottom: 1px solid #02b8dd;
+	
+}
+ 
+article.threecol{ 
+	width:300px;
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+article.twocol{ 
+	width:450px;
+	float:left;
+	text-align:center;
+
+}
+footer{ 
+	background-color: #f8fafa;
+	text-align: center;
+	padding: 20px 0;
+	margin-top:20px;
+}
+.wrapper{
+	width: 900px;
+	margin-right: auto;
+    margin-left: auto;
+}
+a{
+	text-decoration: none;
+	color:444444;
+}
+
+a:hover{
+	color: #02b8dd;
+}
+/********************************************************************************/		
+/*  styles for HOME page*/
+/********************************************************************************/
+#banner-image {
+	height: 400px;
+	padding-top: 1px;
+	background:  url('../images/banner.jpg') no-repeat center;
+}
+
+#banner-image h2{
+	color: #ffffff;
+	text-align:center;
+	font-size:55px;
+	font-weight:300;
+}
+#banner-image h1{
+	color: #ffffff;
+	text-align:center;
+	font-size:65px;
+	font-weight:600;
+}
+

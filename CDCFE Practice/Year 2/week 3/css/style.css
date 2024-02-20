@@ -1,0 +1,64 @@
+header, nav,main,footer,figure,section,aside{ display: block;}
+/********************************************************************************/		
+/*  styles for all pages*/
+/********************************************************************************/
+
+body{ 
+	background-color: #ffffff;
+	color: #777777;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+header{
+	height: 120px;
+}
+header nav {
+	float: right;
+}
+header nav ul li{
+	float: left;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+header nav ul li a{
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	
+}
+
+main{ 
+	width: 900px;
+	margin-right: auto;
+    margin-left: auto;
+} 
+section{ 
+
+}
+ 
+article{ 
+
+
+}
+footer{ 
+	background-color: #f8fafa;
+	text-align: center;
+}
+.wrapper{
+	width: 900px;
+	margin-right: auto;
+    margin-left: auto;
+}
+a{
+	text-decoration: none;
+}
+/********************************************************************************/		
+/*  styles for HOME page*/
+/********************************************************************************/
+#banner-image {
+	height: 400px;
+	padding-top: 1px;
+	background:  url('../images/banner.jpg') no-repeat center;
+}
+

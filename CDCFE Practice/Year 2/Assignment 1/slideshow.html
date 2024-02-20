@@ -1,0 +1,70 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>Welcome To Rob's Smite Website</title>
+        <link rel="icon" type="image/ico" href="images/favicons/favicon-16x16.ico" sizes="16x16" />
+		<link rel="stylesheet"  href="css/style.css" />
+		<script src = "js/main.js"></script>
+		<script>
+			function start(){
+				timeDigtal();
+			}
+		</script>
+    </head>
+	<body onload="start()"><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+			<div class = "wrapper">
+				<h1>Robert<span class="color"> Roe</span></h1>
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="anubis.html"> Anubis Tier 5</a></li>
+						<li><a href="slideshow.html"> God Slide Show</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+			
+		<main><!-- This is  the main content -->
+			
+			<!-- This container is used to control size of gallery-->
+			<section class="container">
+				<div class="gallery"><!-- The JavaScript uses the "gallery" tag-->
+					<script>
+						for(i=1;i<=10;i++){
+							document.write("<a href='images/full/"+i+".png'>")
+							document.write("<img  src= 'images/thumbs/thumb"+i+".png' /></a>")
+						}
+					</script>
+				</div><!-- End Gallery Tag-->
+			</section><!-- End Container-->
+		
+			
+		    <section id = "bottom"><!-- insert the page content here -->
+			<canvas id = "canvas" width ="500" height ="500"></canvas>
+            </section>
+			
+        </main>
+		
+		<footer><!-- This is the Footer bar-->
+			<div class= "download">
+				<a href =https://www.playstation.com/en-us/games/smite-ps4/><img src="images/ps4.png" alt="PS4" /></a>
+				<a href =https://www.smitegame.com/download/><img src="images/win.png" alt="Windows"  ></a>
+				<a href =https://www.microsoft.com/en-us/store/p/smite/c2mhs238pdns><img src="images/xboxone.png" alt="Xbox One"/></a>
+			</div>
+			<div class ="wrapper">
+				<div class= "info">
+					<a href = "credits.html"<p>Copyright &copy; Hi-Rez Studios|</a> 
+					<a href="https://www.smitegame.com">Smite Website</a></p>
+				</div>
+			</div>
+			<div id= "digtime"></div>
+        </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/simple-lightbox.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

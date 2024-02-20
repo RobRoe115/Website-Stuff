@@ -1,0 +1,71 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>Welcome To Rob's Web Programming website</title>
+		<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16" />
+		<link rel="stylesheet"  href="css/style.css" />
+    </head>
+	
+	<body><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+			<div class = "wrapper">
+				<h1>Robert<span class="color">Roe</span></h1>
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="tutorial.html"> Tutorial</a></li>
+						<li><a href="slideshow.html"> Slide Show</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+			
+		<main><!-- This is  the main content -->
+			
+			<!-- This container is used to control size of gallery-->
+			<section class="container">
+				<div class="gallery"><!-- The JavaScript uses the "gallery" tag-->
+					<script>
+						for(i=1;i<=15;i++){
+							document.write("<a href='images/full/"+i+".jpg'>")
+							document.write("<img  src= 'images/thumbs/thumb"+i+".jpg' /></a>")
+						}
+					</script>
+				</div><!-- End Gallery Tag-->
+			</section><!-- End Container-->
+		
+			
+		    <section id = "bottom"><!-- insert the page content here -->
+			    <p>This slideshow is written entirely in <strong>HTML5</strong>
+		         , <strong>CSS</strong>, and <strong>JavaScript</strong></p>
+				 <p>This slideshow can be placed anywhere on the  website.</p>
+            </section>
+			
+        </main>
+		
+		<footer><!-- This is the Footer bar-->
+			<div class= "social">
+				<a href ="#"><img src="images/icons/facebook.png" alt="facebook"  /></a>
+				<a href ="#"><img src="images/icons/twitter.png" alt="twitter"  /></a>
+				<a href ="#"><img src="images/icons/google.png" alt="google"  ></a>
+			</div>
+			<div class ="wrapper">
+				<div class= "info">
+					<p><a href="index.html">Home</a> 
+					| <a href="credits.html">Credits </a>
+					| <a href="https://validator.w3.org/">HTML Validator </a>			   
+					| <a href="contact.html">Contact Us</a></p>
+			  
+					<p>Copyright &copy; PMcD| 
+					<a href="http://patmacd1.esy.es/">Pat's Class Website</a></p>
+				</div>
+			</div>
+        </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/simple-lightbox.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

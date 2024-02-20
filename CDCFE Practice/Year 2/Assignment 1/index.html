@@ -1,0 +1,92 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>Welcome To Rob's Smite Website</title>
+        <link rel="icon" type="image/ico" href="images/favicons/favicon-16x16.ico" sizes="16x16" />
+		<link rel="stylesheet"  href="css/style.css" />
+		<script src = "js/main.js"></script>
+		<script>
+			function start(){
+				timeDigtal();
+				scrollBox();
+			}
+		</script>
+    </head>
+	<body onload="start()"><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+			<div class = "wrapper">
+				<h1>Robert<span class="color"> Roe</span></h1>
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="anubis.html"> Anubis Tier 5</a></li>
+						<li><a href="slideshow.html"> God Slide Show</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+  			<div id = "banner-image"><!-- This contains the banner image-->
+				<div class = "wrapper" >
+					<h2><strong>Smite</strong><br/><strong>Learn about the game</strong></h2>
+					<a href="https://www.smitegame.com/" class="button-1">Smite Website</a>
+				</div>
+			</div>
+		
+		<main><!-- This is  the main content -->
+			<section ><!-- insert the page content here -->
+			
+				<article class ="threecol"> 
+					<img src="images/icon-1.jpg" alt="icon1">
+				    <h2>Anubis Skin</h2>
+					<p>View the T5 Anubis skin</p>
+                    <a href="Anubis.html" class="button-2">View more</a>
+				</article >
+				<article class ="threecol"> 
+					<img src="images/icon-2.jpg" alt="icon2">
+				    <h2> slide show</h2>
+				    <p>View my god Slideshow</p>
+					<a href="slideshow.html" class="button-2">View more</a>
+				</article>
+				<article class ="threecol"> 
+					<img src="images/icon-3.jpg" alt="icon3">
+				    <h2>contact us</h2>
+					<p>Contact me if you have any questions</p>
+					<a href="contact.html" class="button-2">Contact us</a>
+				</article>
+			</section>
+			<section id = "bottom"><!-- insert the page content here -->
+				<iframe src="https://www.smitegame.com/"></iframe>
+			<iframe src="https://www.smitegame.com/"></iframe>
+			<p><input type="button" onclick ="dynamicFrame() " value =" Change Frame"></p>
+			<form name="myform" action="">
+				Enter name: <input type="text" name="customer"/>
+				<input type="button" value="Set Cookie" onclick="writeCookie()"/>
+			</form>
+				<input type="button" value="Get Cookie" onclick="readCookie()"/>
+				<div id= "cookie"></div>
+			</section>
+        </main>
+		
+		
+		<footer><!-- This is the Footer bar-->
+			<div class= "download">
+				<a href =https://www.playstation.com/en-us/games/smite-ps4/><img src="images/ps4.png" alt="PS4" /></a>
+				<a href =https://www.smitegame.com/download/><img src="images/win.png" alt="Windows"  ></a>
+				<a href =https://www.microsoft.com/en-us/store/p/smite/c2mhs238pdns><img src="images/xboxone.png" alt="Xbox One"/></a>
+			</div>
+			<div class ="wrapper">
+				<div class= "info">
+					<a href = "credits.html"<p>Copyright &copy; Hi-Rez Studios|</a> 
+					<a href="https://www.smitegame.com">Smite Website</a></p>
+				</div>
+			</div>
+			<div id= "digtime"></div>
+        </footer>
+
+	</body>
+</html>

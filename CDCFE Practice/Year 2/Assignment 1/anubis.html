@@ -1,0 +1,60 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>Welcome To Rob's Smite Website</title>
+        <link rel="icon" type="image/ico" href="images/favicons/favicon-16x16.ico" sizes="16x16" />
+		<link rel="stylesheet"  href="css/style.css"/>
+		<script src = "js/main.js"></script>
+		<script>
+			function start(){
+				browserDetection();
+				hitCount();
+				timeDigtal();
+			}
+		</script>
+
+    </head>
+	
+	<body onload="start()"><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar--><p>
+			<div class = "wrapper">
+				<h1>Robert<span class="color"> Roe</span></h1>
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="anubis.html"> Anubis Tier 5</a></li>
+						<li><a href="slideshow.html"> God Slide Show</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				
+			</div>
+		</header>
+		<div id= "browser"></div>
+		<main><!-- This is  the main content -->
+		<section class="container2">
+		<h1>Click Image to change</h1>
+				<img id="myImage" onclick="changeImage()" src="images/anubis1.gif">
+				</section>
+        </main>
+				<h1>Hit Counter : <div2 id= "hits"> </div2></h1>
+		<div2><p id="mytext" onmouseover="mouseOver()" onmouseout="mouseOut()">Hover over me to change colour</p>
+        <button onclick="newWindow()">Click Me</button></div2>
+		
+		<footer><!-- This is the Footer bar-->
+			<div class= "download">
+				<a href =https://www.playstation.com/en-us/games/smite-ps4/><img src="images/ps4.png" alt="PS4" /></a>
+				<a href =https://www.smitegame.com/download/><img src="images/win.png" alt="Windows"  ></a>
+				<a href =https://www.microsoft.com/en-us/store/p/smite/c2mhs238pdns><img src="images/xboxone.png" alt="Xbox One"/></a>
+			</div>
+			<div class ="wrapper">
+				<div class= "info">
+					<a href = "credits.html"<p>Copyright &copy; Hi-Rez Studios|</a> 
+					<a href="https://www.smitegame.com">Smite Website</a></p>
+				</div>
+			<div id= "digtime"></div>
+        </footer>
+		
+	</body>
+</html>

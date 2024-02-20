@@ -1,0 +1,245 @@
+header, nav,main,footer,figure,section,aside{ display: block;}
+/********************************************************************************/		
+/*  styles for all pages*/
+/********************************************************************************/
+
+body{ 
+	background-color: #ffffff;
+	color: #777777;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+header{
+	height: 120px;
+}
+header nav {
+	float: right;
+	}
+header h1 {
+	float: left;
+	margin-top: 32px;
+}
+header nav ul li {
+	float: left;
+	display: inline-block;
+	margin-top: 25px;
+}
+header nav ul li a {
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+    margin-right: 20px;
+}
+header h1 .color {
+	color: #02b8dd;
+}
+main{ 
+	width: 950px;
+	margin-right: auto;
+    margin-left: auto;
+	padding-bottom:20px;
+	padding-top:20px;
+} 
+section{ 
+	width: 910px;
+	margin:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+    clear: left;
+	text-align:center;
+}
+section#bottom{
+	text-align:center;
+	border-bottom: 1px solid #02b8dd;
+}
+article.threecol{ 
+	width: 300px;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+article.twocol{
+	width: 450px;
+	text-align:center;
+	float:left;
+	margin-bottom:80px;
+	margin-top:20px;
+}
+footer{ 
+	background-color: #f8fafa;
+	text-align: center;
+	padding: 20px 0;
+	clear: left;
+}
+
+.wrapper{
+	width: 910px;
+	margin-right: auto;
+    margin-left: auto;
+}
+p{
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	color: #02b8dd;
+}
+h3{
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 800px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 20px 0;
+}
+strong{
+	font-weight: bold;
+	font-size:125%;
+}
+.button-1 {
+	display: block;
+	text-align: center;
+	background: #02b8dd;
+	border-radius: 3px;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.button-1:hover {
+	background-color: #3333cc;
+	color: #fff;
+}
+.button-2 {
+	border: 1px solid #02b8dd;
+	color: #02b8dd;
+	padding: 6px 20px;
+	border-radius: 3px;
+}
+
+.button-2:hover {
+	background-color: #02b8dd;
+	color: #fff;
+}
+.button-3 {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #02b8dd;
+	color: #02b8dd;
+	border-radius: 3px;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.button-3:hover {
+	background-color: #02b8dd;
+	color: #fff;
+}
+
+/********************************************************************************/		
+/*  styles for HOME page*/
+/********************************************************************************/
+#banner-image {
+	height: 400px;
+	padding-top: 10px;
+	background:  url('../images/banner.jpg') no-repeat center;
+	padding-bottom: 10px;
+	
+}
+#banner-image h2 {
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 55px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/********************************************************************************/		
+/*  styles for CONTACT page*/
+/********************************************************************************/
+#map {
+	text-align:center;
+}
+label{
+	display:inline-block;
+	width:150px;
+}
+/********************************************************************************/		
+/*  style for social media icons to be placed in footer*/
+/********************************************************************************/
+.social{
+	padding-top:20px;
+	height:45px;
+	width:200px;
+	float:right;
+}
+.social img{
+	width:45px;
+	height:45px;
+}
+.info {
+	width: 380px;
+	margin-right: auto;
+    margin-left: auto;
+}
+/********************************************************************************/		
+/*  style for Slide Show*/
+/********************************************************************************/
+section.container{
+  max-width: 900px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+section.container a img {
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+section.container  a:hover img {
+  transform: scale(1.05);
+} 
+/*
+Target the tags in the JavaScript file to centre the image gallery
+*/
+.sl-wrapper .sl-image{
+	position:fixed;
+}
+.sl-wrapper .sl-counter{
+	display:none;
+	position:fixed;
+	top:30px;
+	left:30px;
+}
+.sl-wrapper .sl-navigation button{
+	position:fixed;
+	top:50%;
+	margin-top:-10px;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	display:block;
+}
+.sl-wrapper .sl-navigation button.sl-next{
+	right:40px;
+}
+.sl-wrapper .sl-navigation button.sl-prev{
+	left:40px;
+}
+.sl-wrapper .sl-close{
+	display:none;
+	position:fixed;
+	right:30px;
+	top:30px;
+}
+
